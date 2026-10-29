@@ -1,0 +1,30 @@
+# KiCad local history
+.history/
+
+# KiCad backup directories
+*-backups/
+
+# KiCad project-local settings (machine/user-specific)
+*.kicad_prl
+
+# KiCad backup files
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_pro-bak
+*.kicad_prl-bak
+*.bak
+
+# Autosave and temporary files
+_autosave-*
+*.tmp
+*.lck
+*~
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor and IDE files
+.vscode/
+.idea/
