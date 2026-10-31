@@ -1044,7 +1044,7 @@
 	)
 	(rectangle
 		(start 15.24 88.9)
-		(end 80.01 134.62)
+		(end 55.88 134.62)
 		(stroke
 			(width 0.381)
 			(type solid)
@@ -1055,8 +1055,8 @@
 		(uuid "4bdf4a61-fbb3-49ca-823e-96da57364b19")
 	)
 	(rectangle
-		(start 201.93 96.52)
-		(end 248.92 124.46)
+		(start 173.99 73.66)
+		(end 220.98 101.6)
 		(stroke
 			(width 0)
 			(type default)
@@ -1067,8 +1067,8 @@
 		(uuid "5b7603c0-7a01-4a29-b0ca-e9d9f45c74d7")
 	)
 	(rectangle
-		(start 16.51 113.03)
-		(end 78.74 132.08)
+		(start 17.78 114.3)
+		(end 39.37 130.81)
 		(stroke
 			(width 0)
 			(type default)
@@ -1089,18 +1089,6 @@
 			(type none)
 		)
 		(uuid "908de9c6-39aa-498c-92d3-3d4f7d665b8a")
-	)
-	(rectangle
-		(start 90.17 92.075)
-		(end 142.24 128.27)
-		(stroke
-			(width 0.3048)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "95bd31d7-2cd2-41df-aada-86a1cd0b11c2")
 	)
 	(rectangle
 		(start 17.78 49.53)
@@ -1127,8 +1115,8 @@
 		(uuid "b4b810b0-5a4a-48ce-8423-f3513417d90f")
 	)
 	(rectangle
-		(start 239.395 33.02)
-		(end 262.255 59.69)
+		(start 63.5 90.17)
+		(end 114.3 124.46)
 		(stroke
 			(width 0)
 			(type default)
@@ -1136,23 +1124,11 @@
 		(fill
 			(type none)
 		)
-		(uuid "c848e877-5d8f-4b49-8639-71caac7e83e2")
+		(uuid "bb13080b-de21-4c38-b298-419dadf5e049")
 	)
 	(rectangle
-		(start 164.465 20.32)
-		(end 266.065 63.5)
-		(stroke
-			(width 0.381)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "d2a1216f-cd2e-428f-bc55-8e12ff78ec99")
-	)
-	(rectangle
-		(start 204.47 71.12)
-		(end 238.76 86.36)
+		(start 123.19 110.49)
+		(end 157.48 125.73)
 		(stroke
 			(width 0)
 			(type default)
@@ -1199,8 +1175,8 @@
 		(uuid "f5f5ba63-0155-416f-a99a-fc2874eaf726")
 	)
 	(rectangle
-		(start 165.1 71.12)
-		(end 198.12 86.36)
+		(start 123.19 90.17)
+		(end 156.21 105.41)
 		(stroke
 			(width 0)
 			(type default)
@@ -1212,7 +1188,7 @@
 	)
 	(text "Jetson Power"
 		(exclude_from_sim no)
-		(at 171.196 69.85 0)
+		(at 129.286 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1224,7 +1200,7 @@
 	)
 	(text "EXTRA PORTS"
 		(exclude_from_sim no)
-		(at 97.282 90.678 0)
+		(at 70.612 88.138 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1246,21 +1222,19 @@
 		)
 		(uuid "35308861-90b8-4550-9a7b-a9af818ee87d")
 	)
-	(text "COOLING FANS\n"
+	(text "ARM PCB \nPower"
 		(exclude_from_sim no)
-		(at 250.571 30.988 0)
+		(at 42.672 122.682 90)
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
 			)
 		)
-		(uuid "74f95b45-5f48-4be3-b66d-02b171449b4e")
+		(uuid "38dfaae7-b818-4043-a79f-98de5f28d133")
 	)
 	(text "Base Power"
 		(exclude_from_sim no)
-		(at 170.561 18.034 0)
+		(at 172.974 23.114 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1306,7 +1280,7 @@
 	)
 	(text "Mounting Holes\n"
 		(exclude_from_sim no)
-		(at 209.296 95.25 0)
+		(at 181.356 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1316,7 +1290,7 @@
 	)
 	(text "Battery "
 		(exclude_from_sim no)
-		(at 208.026 69.85 0)
+		(at 126.746 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1340,7 +1314,7 @@
 	)
 	(text_box "Mounting holes for earthing are used to connect the PCB’s ground plane to the chassis or metal enclosure, providing a safety discharge path and reducing EMI (electromagnetic interference)."
 		(exclude_from_sim no)
-		(at 204.47 110.49 0)
+		(at 176.53 87.63 0)
 		(size 41.275 11.43)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -1361,7 +1335,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 77.47) (xy 180.34 77.47)
+			(xy 135.89 96.52) (xy 138.43 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1501,7 +1475,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 78.74) (xy 177.8 77.47)
+			(xy 135.89 97.79) (xy 135.89 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1603,7 +1577,7 @@
 	)
 	(global_label "24V_BATTERY"
 		(shape input)
-		(at 220.98 76.2 180)
+		(at 139.7 115.57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1613,7 +1587,7 @@
 		)
 		(uuid "4886424e-d52f-4871-99ee-9a771d89cd36")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 205.7182 76.2 0)
+			(at 124.4382 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1622,30 +1596,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "12V_ARM"
-		(shape input)
-		(at 44.45 124.46 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "489f13ef-e6f7-48ea-ac60-0eb8d0f6d457")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.7204 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -1699,7 +1649,7 @@
 	)
 	(global_label "24V_Jetson"
 		(shape input)
-		(at 180.34 74.93 180)
+		(at 138.43 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1709,7 +1659,7 @@
 		)
 		(uuid "59d74b37-ebc6-4a56-a5ec-d05c9e90c9ae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.7716 74.93 0)
+			(at 124.8616 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1841,30 +1791,6 @@
 			)
 		)
 	)
-	(global_label "12V_ARM"
-		(shape input)
-		(at 64.77 124.46 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bff42d7a-f56f-419d-bfc2-1162e2b6b0ad")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.0404 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "24V_BASE_M"
 		(shape input)
 		(at 217.17 30.48 180)
@@ -1939,7 +1865,7 @@
 	)
 	(global_label "12V_ARM"
 		(shape input)
-		(at 24.13 124.46 0)
+		(at 25.4 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1949,7 +1875,7 @@
 		)
 		(uuid "ef1c29ae-464c-43f1-8bee-0bebdf267888")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.4004 124.46 0)
+			(at 36.6704 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2188,7 +2114,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 218.44 104.14 0)
+		(at 195.58 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2199,7 +2125,7 @@
 		(fields_autoplaced yes)
 		(uuid "038a2bf6-9b6b-4d02-8eb9-a6a7e5b87433")
 		(property "Reference" "#PWR050"
-			(at 218.44 110.49 0)
+			(at 195.58 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2210,7 +2136,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 218.44 108.585 0)
+			(at 195.58 85.725 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2220,7 +2146,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 104.14 0)
+			(at 195.58 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2231,7 +2157,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 104.14 0)
+			(at 195.58 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2242,7 +2168,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 218.44 104.14 0)
+			(at 195.58 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2266,7 +2192,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 242.57 101.6 0)
+		(at 213.36 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -2277,7 +2203,7 @@
 		(fields_autoplaced yes)
 		(uuid "11dd90bd-b717-4f82-b7f1-d67fa7f86200")
 		(property "Reference" "H8"
-			(at 245.11 99.0599 0)
+			(at 215.9 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2288,7 +2214,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 245.11 101.5999 0)
+			(at 215.9 78.7399 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2300,7 +2226,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad_TopBottom"
-			(at 242.57 101.6 0)
+			(at 213.36 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2311,7 +2237,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 101.6 0)
+			(at 213.36 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2322,7 +2248,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 242.57 101.6 0)
+			(at 213.36 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2424,7 +2350,7 @@
 	)
 	(symbol
 		(lib_id "customs:XT_connect")
-		(at 125.73 93.98 0)
+		(at 99.06 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2434,7 +2360,7 @@
 		(dnp no)
 		(uuid "157c36b7-28b9-4cc8-a244-c4a7c1572f3c")
 		(property "Reference" "J28"
-			(at 130.556 94.234 0)
+			(at 103.886 91.694 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2445,7 +2371,7 @@
 			)
 		)
 		(property "Value" "EXTRA 5V PORT"
-			(at 123.698 107.696 0)
+			(at 97.028 105.156 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2456,7 +2382,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
-			(at 125.73 93.98 0)
+			(at 99.06 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2467,7 +2393,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 93.98 0)
+			(at 99.06 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2478,7 +2404,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 125.73 93.98 0)
+			(at 99.06 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2489,7 +2415,7 @@
 			)
 		)
 		(property "MF" "AMASS"
-			(at 125.73 93.98 0)
+			(at 99.06 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2501,7 +2427,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "16.00 mm"
-			(at 125.73 93.98 0)
+			(at 99.06 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2513,7 +2439,7 @@
 			)
 		)
 		(property "Package" "Package"
-			(at 125.73 93.98 0)
+			(at 99.06 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2525,7 +2451,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 125.73 93.98 0)
+			(at 99.06 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2537,7 +2463,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/XT60-M/AMASS/view-part/?ref=eda"
-			(at 125.73 93.98 0)
+			(at 99.06 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2549,7 +2475,7 @@
 			)
 		)
 		(property "STANDARD" "IPC 7351B"
-			(at 125.73 93.98 0)
+			(at 99.06 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2561,7 +2487,7 @@
 			)
 		)
 		(property "PARTREV" "V1.2"
-			(at 125.73 93.98 0)
+			(at 99.06 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2573,7 +2499,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT60-M/AMASS/view-part/?ref=snap"
-			(at 125.73 93.98 0)
+			(at 99.06 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2585,7 +2511,7 @@
 			)
 		)
 		(property "MP" "XT60-M"
-			(at 125.73 93.98 0)
+			(at 99.06 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2597,7 +2523,7 @@
 			)
 		)
 		(property "Description_1" "Plug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V"
-			(at 125.73 93.98 0)
+			(at 99.06 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2609,7 +2535,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 125.73 93.98 0)
+			(at 99.06 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2621,7 +2547,7 @@
 			)
 		)
 		(property "MANUFACTURER" "AMASS"
-			(at 125.73 93.98 0)
+			(at 99.06 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3029,7 +2955,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 120.65 99.06 0)
+		(at 93.98 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3039,7 +2965,7 @@
 		(dnp no)
 		(uuid "1ca3f298-a8a3-4d2a-ad09-aed0e285aa76")
 		(property "Reference" "#PWR011"
-			(at 120.65 102.87 0)
+			(at 93.98 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3050,7 +2976,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 119.888 95.25 0)
+			(at 93.218 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3060,7 +2986,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 99.06 0)
+			(at 93.98 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3071,7 +2997,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 99.06 0)
+			(at 93.98 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3082,7 +3008,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 120.65 99.06 0)
+			(at 93.98 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3106,7 +3032,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 177.8 78.74 0)
+		(at 135.89 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3117,7 +3043,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e3e5210-92bc-474d-8f30-78d9998c3015")
 		(property "Reference" "#PWR028"
-			(at 177.8 85.09 0)
+			(at 135.89 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3128,7 +3054,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 177.8 83.82 0)
+			(at 135.89 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3138,7 +3064,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 78.74 0)
+			(at 135.89 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3149,7 +3075,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 78.74 0)
+			(at 135.89 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3160,7 +3086,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 177.8 78.74 0)
+			(at 135.89 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3184,7 +3110,7 @@
 	)
 	(symbol
 		(lib_id "customs:XT_connect")
-		(at 185.42 69.85 0)
+		(at 143.51 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3194,7 +3120,7 @@
 		(dnp no)
 		(uuid "1e3ecb78-44e4-45ed-ba43-91621b989ada")
 		(property "Reference" "J9"
-			(at 193.802 76.708 0)
+			(at 151.892 95.758 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3205,7 +3131,7 @@
 			)
 		)
 		(property "Value" "JETSON POWER"
-			(at 181.864 83.312 0)
+			(at 139.954 102.362 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3216,7 +3142,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
-			(at 185.42 69.85 0)
+			(at 143.51 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3227,7 +3153,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 69.85 0)
+			(at 143.51 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3238,7 +3164,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 185.42 69.85 0)
+			(at 143.51 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3249,7 +3175,7 @@
 			)
 		)
 		(property "MF" "AMASS"
-			(at 185.42 69.85 0)
+			(at 143.51 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3261,7 +3187,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "16.00 mm"
-			(at 185.42 69.85 0)
+			(at 143.51 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3273,7 +3199,7 @@
 			)
 		)
 		(property "Package" "Package"
-			(at 185.42 69.85 0)
+			(at 143.51 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3285,7 +3211,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 185.42 69.85 0)
+			(at 143.51 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3297,7 +3223,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/XT60-M/AMASS/view-part/?ref=eda"
-			(at 185.42 69.85 0)
+			(at 143.51 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3309,7 +3235,7 @@
 			)
 		)
 		(property "STANDARD" "IPC 7351B"
-			(at 185.42 69.85 0)
+			(at 143.51 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3321,7 +3247,7 @@
 			)
 		)
 		(property "PARTREV" "V1.2"
-			(at 185.42 69.85 0)
+			(at 143.51 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3333,7 +3259,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT60-M/AMASS/view-part/?ref=snap"
-			(at 185.42 69.85 0)
+			(at 143.51 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3345,7 +3271,7 @@
 			)
 		)
 		(property "MP" "XT60-M"
-			(at 185.42 69.85 0)
+			(at 143.51 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3357,7 +3283,7 @@
 			)
 		)
 		(property "Description_1" "Plug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V"
-			(at 185.42 69.85 0)
+			(at 143.51 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3369,7 +3295,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 185.42 69.85 0)
+			(at 143.51 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3381,7 +3307,7 @@
 			)
 		)
 		(property "MANUFACTURER" "AMASS"
-			(at 185.42 69.85 0)
+			(at 143.51 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3859,7 +3785,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 205.74 101.6 0)
+		(at 177.8 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -3870,7 +3796,7 @@
 		(fields_autoplaced yes)
 		(uuid "2f87a455-d913-4ef4-9086-169eed1916a6")
 		(property "Reference" "H5"
-			(at 208.28 99.0599 0)
+			(at 180.34 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3881,7 +3807,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 208.28 101.5999 0)
+			(at 180.34 78.7399 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3892,8 +3818,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad_TopBottom"
-			(at 205.74 101.6 0)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_ISO14580_Pad"
+			(at 177.8 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3904,7 +3830,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 101.6 0)
+			(at 177.8 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3915,7 +3841,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 205.74 101.6 0)
+			(at 177.8 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4163,85 +4089,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 44.45 121.92 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "353a2a00-578e-4b73-b39e-7601cd563ab5")
-		(property "Reference" "#PWR038"
-			(at 50.8 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 47.625 121.9199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 44.45 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ea54ca3d-c2ee-4dfa-99c9-bbe8be7c79eb")
-		)
-		(instances
-			(project "base_pcb"
-				(path "/5e630bad-85ba-4dc8-80d3-c06058677d89/61500de3-37ea-4386-acd6-cbb32d977371"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+24V")
 		(at 97.79 43.18 180)
 		(unit 1)
@@ -4397,7 +4244,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 19.05 121.92 0)
+		(at 20.32 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4407,7 +4254,7 @@
 		(dnp no)
 		(uuid "40797c9e-627a-4eed-8012-afadf1d1f99b")
 		(property "Reference" "J30"
-			(at 19.685 116.84 0)
+			(at 22.352 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4417,7 +4264,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 26.924 127.762 0)
+			(at 28.194 126.492 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4427,7 +4274,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 19.05 121.92 0)
+			(at 20.32 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4438,7 +4285,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 19.05 121.92 0)
+			(at 20.32 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4449,7 +4296,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 19.05 121.92 0)
+			(at 20.32 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4476,7 +4323,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 95.25 118.11 0)
+		(at 68.58 115.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4486,7 +4333,7 @@
 		(dnp no)
 		(uuid "4c66051d-0839-46ee-9308-e7cbe840473a")
 		(property "Reference" "#PWR053"
-			(at 95.25 124.46 0)
+			(at 68.58 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4497,7 +4344,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.504 121.92 0)
+			(at 68.834 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4507,7 +4354,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 118.11 0)
+			(at 68.58 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4518,7 +4365,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 118.11 0)
+			(at 68.58 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4529,7 +4376,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 95.25 118.11 0)
+			(at 68.58 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4546,163 +4393,6 @@
 			(project "base_pcb"
 				(path "/5e630bad-85ba-4dc8-80d3-c06058677d89/61500de3-37ea-4386-acd6-cbb32d977371"
 					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 39.37 121.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "599e4b32-a0a4-4eea-87bf-979bba4caee0")
-		(property "Reference" "J31"
-			(at 40.005 116.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 48.514 127.762 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 39.37 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 39.37 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6564ec6a-c9da-4060-8d3b-bd459d3dfa6f")
-		)
-		(pin "2"
-			(uuid "8a5c90ca-d75f-4249-a5de-166890987ab8")
-		)
-		(instances
-			(project "base_pcb"
-				(path "/5e630bad-85ba-4dc8-80d3-c06058677d89/61500de3-37ea-4386-acd6-cbb32d977371"
-					(reference "J31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 231.14 104.14 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5f1196a6-0a1e-4d8e-8915-95e3131ac89f")
-		(property "Reference" "#PWR049"
-			(at 231.14 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 231.14 108.585 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 231.14 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 231.14 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 231.14 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d859f3a8-7c20-406d-a2c9-e0780b9e6ee6")
-		)
-		(instances
-			(project "base_pcb"
-				(path "/5e630bad-85ba-4dc8-80d3-c06058677d89/61500de3-37ea-4386-acd6-cbb32d977371"
-					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -5013,7 +4703,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 242.57 104.14 0)
+		(at 213.36 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5024,7 +4714,7 @@
 		(fields_autoplaced yes)
 		(uuid "6efe84e0-92d9-4e6e-8fbf-6bcc6f1abd5f")
 		(property "Reference" "#PWR033"
-			(at 242.57 110.49 0)
+			(at 213.36 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5035,7 +4725,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 242.57 108.585 0)
+			(at 213.36 85.725 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5045,7 +4735,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 242.57 104.14 0)
+			(at 213.36 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5056,7 +4746,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 104.14 0)
+			(at 213.36 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5067,7 +4757,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 242.57 104.14 0)
+			(at 213.36 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5161,83 +4851,6 @@
 			(project "base_pcb"
 				(path "/5e630bad-85ba-4dc8-80d3-c06058677d89/61500de3-37ea-4386-acd6-cbb32d977371"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 247.65 36.83 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7271debb-38d6-487e-b5a8-9f92f1a01eb4")
-		(property "Reference" "#PWR06"
-			(at 247.65 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 243.84 35.814 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 247.65 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 247.65 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "548b4187-3eae-482d-90a9-7a7a1b984baf")
-		)
-		(instances
-			(project "base_pcb"
-				(path "/5e630bad-85ba-4dc8-80d3-c06058677d89/61500de3-37ea-4386-acd6-cbb32d977371"
-					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -5400,85 +5013,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 247.65 50.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7420198d-1c46-4541-8337-f68e1f0973a3")
-		(property "Reference" "#PWR07"
-			(at 247.65 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 243.84 49.784 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 247.65 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 247.65 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f05be478-3a17-4ed7-a13d-2f70b1cd0ecc")
-		)
-		(instances
-			(project "base_pcb"
-				(path "/5e630bad-85ba-4dc8-80d3-c06058677d89/61500de3-37ea-4386-acd6-cbb32d977371"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 218.44 101.6 0)
+		(at 195.58 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -5489,7 +5025,7 @@
 		(fields_autoplaced yes)
 		(uuid "77825f20-8f9f-40fc-b523-2bc1f663f333")
 		(property "Reference" "H6"
-			(at 220.98 99.0599 0)
+			(at 198.12 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5500,7 +5036,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 220.98 101.5999 0)
+			(at 198.12 78.7399 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5511,8 +5047,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad_TopBottom"
-			(at 218.44 101.6 0)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_ISO14580_Pad"
+			(at 195.58 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5523,7 +5059,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 101.6 0)
+			(at 195.58 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5534,7 +5070,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 218.44 101.6 0)
+			(at 195.58 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5782,232 +5318,6 @@
 		)
 	)
 	(symbol
-		(lib_id "customs:XT_connect")
-		(at 252.73 45.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "831e26a8-38aa-4e97-becb-b78345e1b3da")
-		(property "Reference" "J20"
-			(at 256.794 57.658 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "COOLING SYSTEM"
-			(at 251.46 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
-			(at 252.73 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 252.73 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 252.73 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" "AMASS"
-			(at 252.73 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "16.00 mm"
-			(at 252.73 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "Package"
-			(at 252.73 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 252.73 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/XT60-M/AMASS/view-part/?ref=eda"
-			(at 252.73 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "IPC 7351B"
-			(at 252.73 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "V1.2"
-			(at 252.73 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT60-M/AMASS/view-part/?ref=snap"
-			(at 252.73 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "XT60-M"
-			(at 252.73 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Description_1" "Plug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V"
-			(at 252.73 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 252.73 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "AMASS"
-			(at 252.73 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "2"
-			(uuid "57a9278c-cfd0-43bf-a33e-dc55e93ee5ba")
-		)
-		(pin "1"
-			(uuid "b080c90f-39e9-4414-9755-3af87fcd5f96")
-		)
-		(instances
-			(project "base_pcb"
-				(path "/5e630bad-85ba-4dc8-80d3-c06058677d89/61500de3-37ea-4386-acd6-cbb32d977371"
-					(reference "J20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+24V")
 		(at 97.79 57.15 180)
 		(unit 1)
@@ -6085,85 +5395,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 247.65 53.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "87b608f8-dc47-48d1-a9c0-770fca52f0a0")
-		(property "Reference" "#PWR036"
-			(at 247.65 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 247.65 57.785 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 247.65 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 247.65 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a7e990d3-250f-445d-b7cd-d3f16d55e165")
-		)
-		(instances
-			(project "base_pcb"
-				(path "/5e630bad-85ba-4dc8-80d3-c06058677d89/61500de3-37ea-4386-acd6-cbb32d977371"
-					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "customs:XT_connect")
-		(at 226.06 71.12 0)
+		(at 144.78 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6173,7 +5406,7 @@
 		(dnp no)
 		(uuid "8a254e6a-ade2-4568-81f1-b183d91806a8")
 		(property "Reference" "J11"
-			(at 234.442 77.724 0)
+			(at 153.162 117.094 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6184,7 +5417,7 @@
 			)
 		)
 		(property "Value" "BatteryIN"
-			(at 225.806 83.566 0)
+			(at 144.526 122.936 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6194,8 +5427,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
-			(at 226.06 71.12 0)
+		(property "Footprint" "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical"
+			(at 144.78 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6206,7 +5439,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 71.12 0)
+			(at 144.78 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6217,7 +5450,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 226.06 71.12 0)
+			(at 144.78 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6228,7 +5461,7 @@
 			)
 		)
 		(property "MF" "AMASS"
-			(at 226.06 71.12 0)
+			(at 144.78 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6240,7 +5473,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "16.00 mm"
-			(at 226.06 71.12 0)
+			(at 144.78 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6252,7 +5485,7 @@
 			)
 		)
 		(property "Package" "Package"
-			(at 226.06 71.12 0)
+			(at 144.78 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6264,7 +5497,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 226.06 71.12 0)
+			(at 144.78 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6276,7 +5509,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/XT60-M/AMASS/view-part/?ref=eda"
-			(at 226.06 71.12 0)
+			(at 144.78 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6288,7 +5521,7 @@
 			)
 		)
 		(property "STANDARD" "IPC 7351B"
-			(at 226.06 71.12 0)
+			(at 144.78 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6300,7 +5533,7 @@
 			)
 		)
 		(property "PARTREV" "V1.2"
-			(at 226.06 71.12 0)
+			(at 144.78 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6312,7 +5545,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT60-M/AMASS/view-part/?ref=snap"
-			(at 226.06 71.12 0)
+			(at 144.78 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6324,7 +5557,7 @@
 			)
 		)
 		(property "MP" "XT60-M"
-			(at 226.06 71.12 0)
+			(at 144.78 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6336,7 +5569,7 @@
 			)
 		)
 		(property "Description_1" "Plug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V"
-			(at 226.06 71.12 0)
+			(at 144.78 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6348,7 +5581,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 226.06 71.12 0)
+			(at 144.78 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6360,7 +5593,7 @@
 			)
 		)
 		(property "MANUFACTURER" "AMASS"
-			(at 226.06 71.12 0)
+			(at 144.78 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6388,7 +5621,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 95.25 99.06 0)
+		(at 68.58 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6398,7 +5631,7 @@
 		(dnp no)
 		(uuid "8d9b9762-af68-48dd-bda6-c1c74f89a8d8")
 		(property "Reference" "#PWR013"
-			(at 95.25 102.87 0)
+			(at 68.58 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6409,7 +5642,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 94.742 94.996 0)
+			(at 68.072 92.456 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6419,7 +5652,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 99.06 0)
+			(at 68.58 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6430,7 +5663,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 99.06 0)
+			(at 68.58 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6441,7 +5674,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 95.25 99.06 0)
+			(at 68.58 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6687,311 +5920,6 @@
 		)
 	)
 	(symbol
-		(lib_id "customs:XT_connect")
-		(at 252.73 31.75 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8f1df743-7f7e-49e4-84ae-dd1282e1bc02")
-		(property "Reference" "J19"
-			(at 254.762 43.942 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "COOLING SYSTEM"
-			(at 251.46 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
-			(at 252.73 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 252.73 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 252.73 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" "AMASS"
-			(at 252.73 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "16.00 mm"
-			(at 252.73 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "Package"
-			(at 252.73 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 252.73 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/XT60-M/AMASS/view-part/?ref=eda"
-			(at 252.73 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "IPC 7351B"
-			(at 252.73 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "V1.2"
-			(at 252.73 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT60-M/AMASS/view-part/?ref=snap"
-			(at 252.73 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "XT60-M"
-			(at 252.73 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Description_1" "Plug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V"
-			(at 252.73 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 252.73 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "AMASS"
-			(at 252.73 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "1"
-			(uuid "9bfc1ec4-7b78-428d-a4c3-0cc49e6c7930")
-		)
-		(pin "2"
-			(uuid "474d49d7-c3d6-4089-833f-95d9a14bdd6d")
-		)
-		(instances
-			(project "base_pcb"
-				(path "/5e630bad-85ba-4dc8-80d3-c06058677d89/61500de3-37ea-4386-acd6-cbb32d977371"
-					(reference "J19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 64.77 121.92 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "90b27d92-4759-49e2-b46e-95a1c558b5df")
-		(property "Reference" "#PWR039"
-			(at 71.12 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 67.945 121.9199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 64.77 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 64.77 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 64.77 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5f127e98-aa89-41da-a5ac-63196f2de4f6")
-		)
-		(instances
-			(project "base_pcb"
-				(path "/5e630bad-85ba-4dc8-80d3-c06058677d89/61500de3-37ea-4386-acd6-cbb32d977371"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+24V")
 		(at 97.79 26.67 0)
 		(unit 1)
@@ -7063,83 +5991,6 @@
 			(project "base_pcb"
 				(path "/5e630bad-85ba-4dc8-80d3-c06058677d89/61500de3-37ea-4386-acd6-cbb32d977371"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 247.65 39.37 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "91388daf-4291-4227-bbcf-7f0f3429a4f1")
-		(property "Reference" "#PWR035"
-			(at 247.65 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 247.65 43.815 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 247.65 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 247.65 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c4f7d139-8f0f-489d-b09b-b6a45bfcaab3")
-		)
-		(instances
-			(project "base_pcb"
-				(path "/5e630bad-85ba-4dc8-80d3-c06058677d89/61500de3-37ea-4386-acd6-cbb32d977371"
-					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -7450,7 +6301,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 120.65 101.6 0)
+		(at 93.98 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7460,7 +6311,7 @@
 		(dnp no)
 		(uuid "a5ac7f2e-58b9-4ea2-be1b-79785eefc11b")
 		(property "Reference" "#PWR042"
-			(at 120.65 107.95 0)
+			(at 93.98 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7471,7 +6322,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 120.65 105.41 0)
+			(at 93.98 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7481,7 +6332,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 101.6 0)
+			(at 93.98 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7492,7 +6343,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 101.6 0)
+			(at 93.98 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7503,7 +6354,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 120.65 101.6 0)
+			(at 93.98 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7527,7 +6378,7 @@
 	)
 	(symbol
 		(lib_id "customs:XT_connect")
-		(at 100.33 110.49 0)
+		(at 73.66 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7537,7 +6388,7 @@
 		(dnp no)
 		(uuid "a81a2174-bfef-44ee-87a1-0e829a946034")
 		(property "Reference" "J29"
-			(at 106.172 111.252 0)
+			(at 79.502 108.712 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7547,7 +6398,7 @@
 			)
 		)
 		(property "Value" "EXTRA 24V PORT"
-			(at 106.172 124.206 0)
+			(at 79.502 121.666 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7557,7 +6408,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
-			(at 100.33 110.49 0)
+			(at 73.66 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7568,7 +6419,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 110.49 0)
+			(at 73.66 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7579,7 +6430,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 100.33 110.49 0)
+			(at 73.66 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7590,7 +6441,7 @@
 			)
 		)
 		(property "MF" "AMASS"
-			(at 100.33 110.49 0)
+			(at 73.66 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7602,7 +6453,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "16.00 mm"
-			(at 100.33 110.49 0)
+			(at 73.66 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7614,7 +6465,7 @@
 			)
 		)
 		(property "Package" "Package"
-			(at 100.33 110.49 0)
+			(at 73.66 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7626,7 +6477,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 100.33 110.49 0)
+			(at 73.66 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7638,7 +6489,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/XT60-M/AMASS/view-part/?ref=eda"
-			(at 100.33 110.49 0)
+			(at 73.66 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7650,7 +6501,7 @@
 			)
 		)
 		(property "STANDARD" "IPC 7351B"
-			(at 100.33 110.49 0)
+			(at 73.66 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7662,7 +6513,7 @@
 			)
 		)
 		(property "PARTREV" "V1.2"
-			(at 100.33 110.49 0)
+			(at 73.66 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7674,7 +6525,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT60-M/AMASS/view-part/?ref=snap"
-			(at 100.33 110.49 0)
+			(at 73.66 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7686,7 +6537,7 @@
 			)
 		)
 		(property "MP" "XT60-M"
-			(at 100.33 110.49 0)
+			(at 73.66 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7698,7 +6549,7 @@
 			)
 		)
 		(property "Description_1" "Plug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V"
-			(at 100.33 110.49 0)
+			(at 73.66 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7710,7 +6561,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 100.33 110.49 0)
+			(at 73.66 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7722,7 +6573,7 @@
 			)
 		)
 		(property "MANUFACTURER" "AMASS"
-			(at 100.33 110.49 0)
+			(at 73.66 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7750,7 +6601,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 24.13 121.92 90)
+		(at 25.4 120.65 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7761,7 +6612,7 @@
 		(fields_autoplaced yes)
 		(uuid "ac2446fb-ff19-4438-af16-c595077cb48b")
 		(property "Reference" "#PWR030"
-			(at 30.48 121.92 0)
+			(at 31.75 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7772,7 +6623,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 27.305 121.9199 90)
+			(at 28.575 120.6499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7783,7 +6634,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 121.92 0)
+			(at 25.4 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7794,7 +6645,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 121.92 0)
+			(at 25.4 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7805,7 +6656,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 24.13 121.92 0)
+			(at 25.4 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7829,7 +6680,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 220.98 78.74 0)
+		(at 139.7 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7839,7 +6690,7 @@
 		(dnp no)
 		(uuid "b2cecdf6-1085-43ea-8f75-58df899a892c")
 		(property "Reference" "#PWR029"
-			(at 220.98 85.09 0)
+			(at 139.7 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7850,7 +6701,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 220.98 83.185 0)
+			(at 139.7 122.555 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7860,7 +6711,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 78.74 0)
+			(at 139.7 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7871,7 +6722,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 78.74 0)
+			(at 139.7 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7882,7 +6733,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 220.98 78.74 0)
+			(at 139.7 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7982,87 +6833,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 59.69 121.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bb210118-304f-4e6e-af37-108ca728c087")
-		(property "Reference" "J32"
-			(at 60.325 116.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 68.58 127.508 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 59.69 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 59.69 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4e277ce4-6601-4ad3-b988-cf5a3ba5f05b")
-		)
-		(pin "2"
-			(uuid "cd31eb29-eb66-4d79-a9e4-2d604bd6aafa")
-		)
-		(instances
-			(project "base_pcb"
-				(path "/5e630bad-85ba-4dc8-80d3-c06058677d89/61500de3-37ea-4386-acd6-cbb32d977371"
-					(reference "J32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 95.25 101.6 0)
+		(at 68.58 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8072,7 +6844,7 @@
 		(dnp no)
 		(uuid "bdc850a8-6fd9-4d9d-af47-800da5e8eca9")
 		(property "Reference" "#PWR041"
-			(at 95.25 107.95 0)
+			(at 68.58 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8083,7 +6855,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 94.996 105.664 0)
+			(at 68.326 103.124 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8093,7 +6865,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 101.6 0)
+			(at 68.58 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8104,7 +6876,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 101.6 0)
+			(at 68.58 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8115,7 +6887,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 95.25 101.6 0)
+			(at 68.58 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8666,7 +7438,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 95.25 115.57 0)
+		(at 68.58 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8676,7 +7448,7 @@
 		(dnp no)
 		(uuid "bf621631-55b1-465c-a874-898c516cfefd")
 		(property "Reference" "#PWR012"
-			(at 95.25 119.38 0)
+			(at 68.58 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8687,7 +7459,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 94.742 111.506 0)
+			(at 68.072 108.966 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8697,7 +7469,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 115.57 0)
+			(at 68.58 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8708,7 +7480,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 115.57 0)
+			(at 68.58 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8719,7 +7491,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 95.25 115.57 0)
+			(at 68.58 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8929,7 +7701,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
+		(property "Footprint" "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical"
 			(at 92.71 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -9116,86 +7888,6 @@
 			(project "base_pcb"
 				(path "/5e630bad-85ba-4dc8-80d3-c06058677d89/61500de3-37ea-4386-acd6-cbb32d977371"
 					(reference "J10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 231.14 101.6 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e5de759e-b0f5-4570-b3c2-81f9018f69de")
-		(property "Reference" "H7"
-			(at 233.68 99.0599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 233.68 101.5999 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad_TopBottom"
-			(at 231.14 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 231.14 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 231.14 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c01a932d-0def-48de-ad3a-f783f55e0f33")
-		)
-		(instances
-			(project "base_pcb"
-				(path "/5e630bad-85ba-4dc8-80d3-c06058677d89/61500de3-37ea-4386-acd6-cbb32d977371"
-					(reference "H7")
 					(unit 1)
 				)
 			)
@@ -9955,7 +8647,7 @@
 	)
 	(symbol
 		(lib_id "customs:XT_connect")
-		(at 100.33 93.98 0)
+		(at 73.66 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9965,7 +8657,7 @@
 		(dnp no)
 		(uuid "fb9a5273-c9a7-49d5-b887-0ba0d7dfe7e1")
 		(property "Reference" "J27"
-			(at 104.394 94.488 0)
+			(at 77.724 91.948 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9976,7 +8668,7 @@
 			)
 		)
 		(property "Value" "EXTRA 12V PORT"
-			(at 98.552 107.188 0)
+			(at 71.882 104.648 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9987,7 +8679,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
-			(at 100.33 93.98 0)
+			(at 73.66 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9998,7 +8690,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 93.98 0)
+			(at 73.66 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10009,7 +8701,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 100.33 93.98 0)
+			(at 73.66 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10020,7 +8712,7 @@
 			)
 		)
 		(property "MF" "AMASS"
-			(at 100.33 93.98 0)
+			(at 73.66 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10032,7 +8724,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "16.00 mm"
-			(at 100.33 93.98 0)
+			(at 73.66 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10044,7 +8736,7 @@
 			)
 		)
 		(property "Package" "Package"
-			(at 100.33 93.98 0)
+			(at 73.66 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10056,7 +8748,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 100.33 93.98 0)
+			(at 73.66 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10068,7 +8760,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/XT60-M/AMASS/view-part/?ref=eda"
-			(at 100.33 93.98 0)
+			(at 73.66 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10080,7 +8772,7 @@
 			)
 		)
 		(property "STANDARD" "IPC 7351B"
-			(at 100.33 93.98 0)
+			(at 73.66 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10092,7 +8784,7 @@
 			)
 		)
 		(property "PARTREV" "V1.2"
-			(at 100.33 93.98 0)
+			(at 73.66 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10104,7 +8796,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT60-M/AMASS/view-part/?ref=snap"
-			(at 100.33 93.98 0)
+			(at 73.66 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10116,7 +8808,7 @@
 			)
 		)
 		(property "MP" "XT60-M"
-			(at 100.33 93.98 0)
+			(at 73.66 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10128,7 +8820,7 @@
 			)
 		)
 		(property "Description_1" "Plug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V"
-			(at 100.33 93.98 0)
+			(at 73.66 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10140,7 +8832,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 100.33 93.98 0)
+			(at 73.66 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10152,7 +8844,7 @@
 			)
 		)
 		(property "MANUFACTURER" "AMASS"
-			(at 100.33 93.98 0)
+			(at 73.66 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10180,7 +8872,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 205.74 104.14 0)
+		(at 177.8 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10191,7 +8883,7 @@
 		(fields_autoplaced yes)
 		(uuid "fe7e1803-faa3-48f8-914e-5d39a7a6398f")
 		(property "Reference" "#PWR051"
-			(at 205.74 110.49 0)
+			(at 177.8 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10202,7 +8894,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 205.74 108.585 0)
+			(at 177.8 85.725 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10212,7 +8904,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 104.14 0)
+			(at 177.8 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10223,7 +8915,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 104.14 0)
+			(at 177.8 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10234,7 +8926,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 205.74 104.14 0)
+			(at 177.8 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
