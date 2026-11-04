@@ -14687,7 +14687,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "10K"
 			(at 94.996 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20039,7 +20039,7 @@
 				)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "1K"
 			(at 66.04 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
